@@ -1,0 +1,6 @@
+
+#добавить пользователя в группу sudo
+usermod -a -G sudo username
+
+#команда для разархивирования rar архивов
+7zip x filenname.rar
