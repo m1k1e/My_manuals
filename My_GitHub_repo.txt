@@ -4,7 +4,7 @@
 3. My_manuals ---> manuals
 
 для синхронизации с репозиторием на GitHub выполняем комманду
-push -u repo_name branch_name
+git push -u repo_name branch_name
 
 Пример для Tkinter_Course:
-push -u tkinter master
+git push -u tkinter master
