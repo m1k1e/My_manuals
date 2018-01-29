@@ -1,0 +1,54 @@
+Начало работы.
+Virtualenv предназначен для создания виртуального окружения (далее просто "окружение") для 
+вашего проекта. К примеру, вашему проекту нужен отличный от установленного python или 
+какие-либо библиотеки отличных версий, вы можете создать общее окружение для нескольких 
+проектов или по одному собственному для каждого проекта.
+
+Для начала проверяем версии ПО, которое необходимо для установки virtualenv.
+Python 2.7 or 3.4:
+python --version
+
+PIP install:
+pip --version
+
+Если не python или pip отсутствуют в системе их необходимо установить.
+sudo apt-get install python(python3)
+
+Для установки pip качаем файл get-pip.py по ссылке https://pip.pypa.io/en/stable/installing/ 
+и запускаем
+python get-pip.py
+
+Устанавливаем virtualenv
+pip install virtualenv
+
+Создаем проект
+cd my_project_folder
+virtualenv my_project или
+virtualenv --no-site-packages -p python2.6 test, где
+   --no-site-packages - опция полной изоляции вашего окружения от системы
+   --p python2.6 - версия python, которую необходимо использовать в окружении (если
+                   в системе установлены несколько верстий python)
+   -test - имя проекта
+
+
+Наполнение окружения необходимыми модулями
+pip install -E test/ Django
+
+Второй вариант, сначала активируем окружение
+source test/bin/activate
+Устанавливаем необходимые модули
+pip install Django
+
+Еще один вариант
+mkdir python_project
+cd python_project
+virtualenv .venv
+source .venv/bin/activate
+pip install webdriver_mamanger selenium requests
+
+Также все необходимые модули можно установить при помощи файла requirements.txt
+pip install -r requirements.txt
+Его можно заполнить вручную или автоматически после установки всех модулей
+pip freeze > requirements.txt.
+
+[21~

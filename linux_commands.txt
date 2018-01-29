@@ -4,3 +4,10 @@ usermod -a -G sudo username
 
 #команда для разархивирования rar архивов
 7zip x filenname.rar
+
+#Обновление sublime text editor 3
+1. Скачиваем последний стабильный дистрибутив
+2. Распаковываем в любую папку
+3. Копируем командой sudo cp -rf sublime_text_3/. /opt/sublime_text
+где sublime_text_3/. - папка с файлами обновлений
+    /opt/sublime_text - папка с установленной программой
