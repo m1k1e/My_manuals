@@ -51,4 +51,44 @@ pip install -r requirements.txt
 Его можно заполнить вручную или автоматически после установки всех модулей
 pip freeze > requirements.txt.
 
-[21~
+Для настройки необходимого интерпритатора
+virtualenv -p /usr/bin/python2.7 my_project
+
+Для деактивации окружения используется команда
+deactivate
+
+Если проект уже не нужен, удаляем папку с проектом
+rm -rf my_project
+
+Библиотека virtualenvwrapper
+Эта библиотека облегчает работу с virtualenv. Для установки
+pip install virtualenvwrapper
+export WORKON_HOME=~/Envs
+source /usr/local/bin/virtualenvwrapper.sh
+
+Создание нового  окружения
+mkvirtualenv my_project
+
+Запуск созданого окружения
+workon my_project
+
+Выход из окружения
+deactivate
+
+Удалить окружение
+rmvirtualenv venv
+
+Просмотр всех окружений
+lsvirtualenv
+
+Навигация внутри окружения
+cdvirtualenv
+
+Навигация внутри пакетов окружения
+cdsitepackages
+
+Просмотр содержимого пакетов
+lssitepackages
+
+
+
