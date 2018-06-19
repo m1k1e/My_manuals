@@ -17,3 +17,10 @@ git clone https://github.com/user/repository.git
 
 пример для репозитория My_manuals
 git clone https://github.com/m1k1e/My_manuals.git
+
+Для переименования ссылок в новых версиях Git'а
+git remote rename oldLink newLink
+
+Например для репозитория My_manuals при клонировании c GitHub присвоена 
+ссылка origin
+git remote rename origin manuals
