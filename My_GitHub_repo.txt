@@ -3,6 +3,8 @@
 2. HeadFirst ---> headfirst
 3. My_manuals ---> manuals
 4. JAVA_PROJECTS ---> javacourse
+5. Interesting-code-example ---> codeexample
+6. WorkingWithCSVFiles --->workcsv
 
 для синхронизации с репозиторием на GitHub выполняем комманду
 git push -u repo_name branch_name
