@@ -1,0 +1,2 @@
+#Для быстрого набора метода System.out.println();
+sysout --> Ctrl+SPACE
