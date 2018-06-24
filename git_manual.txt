@@ -173,4 +173,18 @@ git remote add shot_link_name "https://github.com/user/myproject.git"
 #заливаем наш проект на удаленный сервер
 git push -u shot_link_name master
 #синхронизируем удаленный и локальный репозитории
+git fetch link_name 
+#синхронизируем репозитории и сливаем с нашими изменениями
 git pull link_name branch_name
+
+#отличие pull  и fetch состоит в том, что fetch вытягивает с удаленного сервера
+#те изменения которых у нас нет, а  pull делает еще и слияние.
+
+#Для проверки соответствия сокращенного имени удаленному репозиторию
+git remote -v
+
+#Добавление удаленного репозитория
+git remote add shot_link_name link(url)
+
+#Для проверки изменений на удаленном сервере
+git remote show shot_link_name(origin)

@@ -26,4 +26,4 @@ git remote rename oldLink newLink
 git remote rename origin manuals
 
 Для синхронизации изменения удаленного репозитория с локальным
-git pull manuals master
+git fetch manuals 
