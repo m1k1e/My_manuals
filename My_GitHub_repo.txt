@@ -24,3 +24,6 @@ git remote rename oldLink newLink
 Например для репозитория My_manuals при клонировании c GitHub присвоена 
 ссылка origin
 git remote rename origin manuals
+
+Для синхронизации изменения удаленного репозитория с локальным
+git pull manuals master

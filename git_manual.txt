@@ -172,3 +172,5 @@ curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
 git remote add shot_link_name "https://github.com/user/myproject.git" 
 #заливаем наш проект на удаленный сервер
 git push -u shot_link_name master
+#синхронизируем удаленный и локальный репозитории
+git pull link_name branch_name
