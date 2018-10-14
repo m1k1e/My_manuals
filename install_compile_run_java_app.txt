@@ -1,0 +1,28 @@
+Установка jdk и jre.
+
+Инструкция по установке jre на Windows:
+https://www.java.com/ru/download/help/windows_manual_download.xml
+
+Инструкция по установке jre на Linux:
+https://www.java.com/ru/download/help/linux_install.xml
+
+Что нужно для разработки на java и для запуска java приложений?
+1. Для разработки необходимо утстановить Java Development Kit(средства разработчика java)
+https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk
+Выбираем для нужной платформы и ОС, качаем и ставим по инструкции выше.
+
+2. Для запуска приложений java Java Runtime Environment(среда выполнения java)
+https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk
+Выбираем для нужной платформы и ОС, качаем и ставим по инструкции выше.
+
+Компиляция и запуск приложений из командной строки
+1. Исходник и исполняемый файл в одной папке
+   1.1 javac JavaApp.java
+   1.2 java -classpath . JavaApp
+
+2. Исходник и исполняемый файл в отдельных папках (./src и ./bin)
+   1.1 javac -d bin src/JavaApp.java
+   1.2 java -classpath ./bin JavaApp
+
+Неплохая инструкция по работе в командной строке с java:
+https://habr.com/post/125210/
