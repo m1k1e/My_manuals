@@ -2,9 +2,28 @@
 1. Tkinter_Course ---> tkinter
 2. HeadFirst ---> headfirst
 3. My_manuals ---> manuals
+4. JAVA_PROJECTS ---> javacourse
+5. Interesting-code-example ---> codeexample
+6. WorkingWithCSVFiles --->workcsv
 
 для синхронизации с репозиторием на GitHub выполняем комманду
 git push -u repo_name branch_name
 
 Пример для Tkinter_Course:
 git push -u tkinter master
+
+для копирования репозитория с github на локальный компьютер
+git clone https://github.com/user/repository.git
+
+пример для репозитория My_manuals
+git clone https://github.com/m1k1e/My_manuals.git
+
+Для переименования ссылок в новых версиях Git'а
+git remote rename oldLink newLink
+
+Например для репозитория My_manuals при клонировании c GitHub присвоена 
+ссылка origin
+git remote rename origin manuals
+
+Для синхронизации изменения удаленного репозитория с локальным
+git fetch manuals 
