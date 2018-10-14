@@ -11,3 +11,10 @@ usermod -a -G sudo username
 3. Копируем командой sudo cp -rf sublime_text_3/. /opt/sublime_text
 где sublime_text_3/. - папка с файлами обновлений
     /opt/sublime_text - папка с установленной программой
+
+
+#сделать все папки и файлы доступными для всех на чтение, запись и исполнение
+chmod -R 777 directory_name
+
+#сделать файл доступным для всех на чтение запись
+chmod 666 file_name
