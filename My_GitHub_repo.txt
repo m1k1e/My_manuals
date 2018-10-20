@@ -5,6 +5,7 @@
 4. JAVA_PROJECTS ---> javacourse
 5. Interesting-code-example ---> codeexample
 6. WorkingWithCSVFiles --->workcsv
+7. Java_in_a_nutshell_examples ---> javanutshell
 
 для синхронизации с репозиторием на GitHub выполняем комманду
 git push -u repo_name branch_name
@@ -24,3 +25,6 @@ git remote rename oldLink newLink
 Например для репозитория My_manuals при клонировании c GitHub присвоена 
 ссылка origin
 git remote rename origin manuals
+
+Для синхронизации изменения удаленного репозитория с локальным
+git fetch manuals 
