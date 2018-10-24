@@ -23,6 +23,7 @@ https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#j
 2. Исходник и исполняемый файл в отдельных папках (./src и ./bin)
    1.1 javac -d bin src/JavaApp.java
    1.2 java -classpath ./bin JavaApp
+   1.3 javac -d -encoding UTF-8 bin JavaApp (для отображения русских букв в командной строке Windows) 
 
 Неплохая инструкция по работе в командной строке с java:
 https://habr.com/post/125210/
