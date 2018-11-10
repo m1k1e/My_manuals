@@ -6,6 +6,7 @@
 5. Interesting-code-example ---> codeexample
 6. WorkingWithCSVFiles --->workcsv
 7. Java_in_a_nutshell_examples ---> javanutshell
+8. Java beginer tasks(democode) ---> Java_beginer_tasks
 
 для синхронизации с репозиторием на GitHub выполняем комманду
 git push -u repo_name branch_name
