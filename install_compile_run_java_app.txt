@@ -24,6 +24,15 @@ https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#j
    1.1 javac -d bin src/JavaApp.java
    1.2 java -classpath ./bin JavaApp
    1.3 javac -d -encoding UTF-8 bin JavaApp (для отображения русских букв в командной строке Windows) 
+   
+3. Работа с пакетами и более чем одним файлом
+   1.1 Если мы решаем поместить исходник(и) в пакет, то это означает, что необходимо придерживаться структуры
+   src/firstpackage/JavaApp.java - JavaApp.java находится в пакете(папка) firstpackage.
+   Пакеты нужны для разделения пространства имен.
+   1.2 Если нужно откомпилировать более одного файла, которые входят в пакет
+       javac -sourcepath ./src -d bin src/firstpackage/JavaApp.java - файл с методом main, точка входа в программу
+   1.3 java -classpath ./bin firstpackage.JavaApp
+      
 
 Неплохая инструкция по работе в командной строке с java:
 https://habr.com/post/125210/
