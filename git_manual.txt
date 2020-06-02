@@ -188,3 +188,14 @@ git remote add shot_link_name link(url)
 
 #Для проверки изменений на удаленном сервере
 git remote show shot_link_name(origin)
+
+#Клонирование ветки с удаленного репозитория
+git clone https://github.com/USER/REPO.git
+USER - имя пользователя github.com;
+REPO - имя репозитория, который нужно клонировать на локальный компьютер.
+
+#Создание ветки на удаленном репозитории
+git push REPO_LINK localBranchName : remoteBranchName
+short_link_name - сокращенное имя удаленного репозитория;
+localBranchName - имя локальной ветки, которую хотим загрузить на удаленный репозиторий;
+remoteBranchName - имя которое будет присвоенно на удаленном репозитории ветке localBranchName. Имена локальной и удаленной веток не обязательно должны совпадать.
