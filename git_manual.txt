@@ -246,3 +246,7 @@ git checkout C1
 #https://githowto.com/ru/changes_not_files
 #https://www.youtube.com/watch?#v=QkY8lXZuiqQ&list=PLDyvV36pndZHkDRik6kKF6gSb0N0W995h&t=2s
 
+#Замена работы с репозиторием с протокола https на ssh при условии, что настроена связь с github.com по ssh и ключи
+#Копируем ссылку на репозиторий с протоколом ssh
+git remote set-url origin(or shot_link_name) ssh://GIT@GITHUB.ORG:user/repo.git
+
